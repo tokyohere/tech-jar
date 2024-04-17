@@ -33,7 +33,6 @@ hr {
 }
 
 abbr:where([title]) {
-  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
 }
 
@@ -91,6 +90,7 @@ button, input, optgroup, select, textarea {
   font-size: 100%;
   font-weight: inherit;
   line-height: inherit;
+  letter-spacing: inherit;
   color: inherit;
   margin: 0;
   padding: 0;
@@ -100,7 +100,7 @@ button, select {
   text-transform: none;
 }
 
-button, [type="button"], [type="reset"], [type="submit"] {
+button, input:where([type="button"]), input:where([type="reset"]), input:where([type="submit"]) {
   -webkit-appearance: button;
   background-color: #0000;
   background-image: none;
@@ -246,6 +246,10 @@ img, video {
   --tw-backdrop-opacity: ;
   --tw-backdrop-saturate: ;
   --tw-backdrop-sepia: ;
+  --tw-contain-size: ;
+  --tw-contain-layout: ;
+  --tw-contain-paint: ;
+  --tw-contain-style: ;
 }
 
 .absolute {
@@ -953,7 +957,6 @@ body {
 }
 
 .gradient-hire-us {
-  -webkit-mask: linear-gradient(90deg, #0000, #000 4% 96%, #0000);
   mask: linear-gradient(90deg, #0000, #000 4% 96%, #0000);
 }
 
@@ -1417,5 +1420,4 @@ body {
     padding-bottom: .625rem;
   }
 }
-
 /*# sourceMappingURL=index.ee7f3cbd.css.map */
