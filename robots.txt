@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://techjar.com.np/sitemap.xml
