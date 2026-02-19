@@ -1,0 +1,20 @@
+{
+  "name": "Tech Jar - Digital Innovation",
+  "short_name": "Tech Jar",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0a0e12",
+  "theme_color": "#00f2ea",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ]
+}
